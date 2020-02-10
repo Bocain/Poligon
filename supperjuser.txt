@@ -1,0 +1,33 @@
+/etc/passwd
+/etc/group
+---
+logowanie jako root
+su
+---
+zapisanie pliku z wymuszonym dostepem, wew. vim
+:w !sudo tee %
+---
+zamkniecie sesji/tty, teletype terminal
+systemctl stop getty@ttyX.service
+X-numer tty od who
+---
+restart calej sieci
+sudo systemctl stop network 
+sudo systemctl start network
+---
+restart interfejsu sieciowego
+sudo ifdown eth0
+sudo ifup eth0
+---
+tworzy konto dla nowego uzytkownika, nowa grupe, 
+adduser uzytkownik -G grupa1,grupa2 -c "komentarz" -d /katalog/domowy
+passwd uzytkownik
+groupadd nowaGrupa
+groupmod --new-name NowaNazwa StaraNazwa
+---
+usermod -G grupa1,grupa2 uzytkownk
+---
+sudo userdel -r uzytkownik
+---
+sudo chwon plik
+---

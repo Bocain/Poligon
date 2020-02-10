@@ -1,0 +1,29 @@
+stdin
+dnf install vim -y
+ctrl+h
+ps
+dnf
+shutdown now
+ifconfig
+ip route
+nmcli
+onboot
+ln -s /pelnaSciezka ~/sciezka/plik
+df -h -exclude="*.git"
+2>/dev/null
+chwon uzytkownik plik
+umask 066
+uname
+alias l20="last --limit 20 --system --fulltimes"
+export VAR1 VAR2
+expr 1 + 2
+bc
+cal
+mesg
+tar -cvf plik.tar plik
+tar -xvf plik.tar plik
+tar -tzf plik.tgz
+gzip -k plik.tar
+gunzip plik.tar.zip
+head -n 20 plik
+

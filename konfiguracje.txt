@@ -1,0 +1,24 @@
+chmod 777 plik
+chmod o-r plik
+g-w, g+w, g=w, g=-, a=w
+-R,
+chmod -g grupaDocelowa uzytkownik
+---
+./skrypt
+---
+chgr grupa plik
+-R
+---
+whoami
+---
+who am i
+---
+groups
+---
+id
+---
+getent group
+---
+tty
+---
+

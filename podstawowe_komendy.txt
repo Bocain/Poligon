@@ -1,0 +1,54 @@
+Print working directory
+pwd
+
+Pomoc
+man komenda
+---
+cd ../..
+cd
+
+cp /sciezka /sciezka
+cp *txt /sciezka
+cp -ri ~/data/* .
+
+mv plik1 plik2 -b
+
+ls /sciezka -a -l > plik
+-ld, -lt, -ltr, -lt --time=atime (tez ctime)
+-D, -xD, -R, -h, -F, 
+ls | tee plik
+ls -IR /etc 2>/dev/null | cut -c 1 | grep - | wc -l
+/usr/bin/ls
+
+sort -t ':' -k 3 -n /sciezka | more
+-o, 
+--sort=size
+
+cat plik | sort | inique -u
+-d, -c,
+cat > plik
+cat plik >> plik
+cat < plik
+cat plik | tr 'abc' 'ABC'
+-s, -d .,
+
+echo $ZMIENNA
+echo "Treść $ZMIENNA"
+echo -e 'Wyraz\tze\t$ZMIENNEJ'
+\n, \a,
+echo -n . ; sleep1 ; echo -n . ; sleep1 ; echo.
+
+rm -r -f katalog
+rm .*.swp
+
+du / -bh | more
+
+grep szukaneSlowo plik1 plik2
+grep -cron root * 2>/dev/null
+-Ei "*nazwaPLiku"
+
+find . -name "*nazwaPliku*" 2>/dev/null -maxdepth 1 -not-name "*.conf" -mtime -5 -mtime +1
+
+-exec ls -lh {} \;
+-exec echo "Moving {}" \; -exec mv {} /sciezka/plik \; komenda | cut -c 1-10
+
