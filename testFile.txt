@@ -1,0 +1,1 @@
+zmiana po git reset --hard PoligonHub/master
