@@ -29,5 +29,5 @@ usermod -G grupa1,grupa2 uzytkownk
 ---
 sudo userdel -r uzytkownik
 ---
-sudo chwon plik
+sudo chown plik
 ---
